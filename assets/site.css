@@ -564,3 +564,20 @@ a.inline:hover{ border-bottom-color:var(--accent); }
 .why-card{ background:var(--accent-tint); }
 .band figcaption{ border-left:3px solid var(--green); }
 .tint::after{ background:linear-gradient(180deg, rgba(38,59,75,.42), rgba(38,59,75,.30) 55%, rgba(47,102,33,.30)); }
+
+/* ===== Teamseite ===== */
+.hero--team{ height:72vh; height:72svh; min-height:460px; max-height:820px; }
+.hero--team .hero-photo img{ object-position:50% 45%; }
+.people{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--s4) var(--s2); }
+@media (min-width:768px){ .people{ grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--s5) var(--s3); } }
+@media (min-width:1100px){ .people{ grid-template-columns:repeat(4,minmax(0,1fr)); } }
+.people figure{ margin:0; }
+.people img{ width:100%; aspect-ratio:4/5; object-fit:cover; background:var(--grey); transition:transform .6s ease; }
+.people li{ overflow:hidden; }
+.people figure > img{ display:block; }
+.people figcaption{ position:relative; padding-top:var(--s2); margin-top:var(--s2); font-size:20px; font-weight:300; color:var(--primary); }
+.people figcaption::before{ content:""; position:absolute; left:0; top:0; width:32px; height:3px; background:var(--green); }
+.people figcaption.ph{ color:var(--muted); font-style:italic; }
+.duo-media img{ aspect-ratio:4/5; }
+@media (min-width:900px){ .duo-media{ grid-column:2 / span 5 !important; } #zusammenhalt .feature-text{ grid-column:8 / span 4 !important; align-self:center; } }
+.nav a[aria-current="page"]{ border-bottom-color:var(--green); }
