@@ -581,3 +581,5 @@ a.inline:hover{ border-bottom-color:var(--accent); }
 .duo-media img{ aspect-ratio:4/5; }
 @media (min-width:900px){ .duo-media{ grid-column:2 / span 5 !important; } #zusammenhalt .feature-text{ grid-column:8 / span 4 !important; align-self:center; } }
 .nav a[aria-current="page"]{ border-bottom-color:var(--green); }
+.people{ gap:var(--s2); }
+@media (min-width:768px){ .people{ gap:var(--s3); } }
