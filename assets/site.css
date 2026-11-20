@@ -541,3 +541,26 @@ a.inline:hover{ border-bottom-color:var(--accent); }
 .band--video .bg-video{ position:absolute; inset:0; }
 .video-toggle{ position:absolute; left:0; bottom:0; z-index:2; min-height:var(--ctl); padding:0 var(--s2); background:var(--white); color:var(--primary); font-size:13px; font-weight:600; }
 .video-toggle:hover{ color:var(--accent); }
+
+/* ===== TEFA Service: Grün (Original-Markenfarbe #63aa4a) ===== */
+:root{
+  --green:#63aa4a;                 /* Markengrün: Linien, Flächen, Deko */
+  --accent:#3b7d29;                /* dunkleres Grün für Schrift/Buttons (5:1 auf Weiß) */
+  --accent-dark:#2f6621;
+  --accent-tint:#e9f3e4;
+  --subtle:#f4f8f2; --blue-grey:#d7e4d0; --line:#e3e9e0;
+}
+.btn--accent:hover{ background:var(--accent-dark); }
+.h1 em,.h2 em,.display em{ color:var(--accent); }
+.on-photo em,.hero em,.cap-item em{ color:inherit; }
+.hdr.solid .brand-text em,.hdr.menu-open .brand-text em{ color:var(--accent); }
+.wordmark{ border-left:3px solid var(--green); }
+.wordmark b{ color:inherit; }
+.step::before,.job-list li::before,.legal-list li::before{ background:var(--green); }
+.step::before{ width:40px; height:3px; top:-2px; }
+.quote{ border-top-color:var(--green); }
+.stars{ color:var(--green); }
+.footer{ border-top:4px solid var(--green); }
+.why-card{ background:var(--accent-tint); }
+.band figcaption{ border-left:3px solid var(--green); }
+.tint::after{ background:linear-gradient(180deg, rgba(38,59,75,.42), rgba(38,59,75,.30) 55%, rgba(47,102,33,.30)); }
