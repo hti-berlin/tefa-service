@@ -583,3 +583,5 @@ a.inline:hover{ border-bottom-color:var(--accent); }
 .nav a[aria-current="page"]{ border-bottom-color:var(--green); }
 .people{ gap:var(--s2); }
 @media (min-width:768px){ .people{ gap:var(--s3); } }
+/* Schriftzug in der Kopfleiste: SERVICE in Großbuchstaben wie im Logo */
+.brand-text em{ text-transform:uppercase; letter-spacing:.12em; font-size:.82em; margin-left:.2em; }
